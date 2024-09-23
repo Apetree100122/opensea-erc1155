@@ -156,4 +156,5 @@ def _get_bucket():
 
 
 if __name__ == '__main__':
-    app.run(debug=True, use_reloader=True)
+    debug_mode = os.getenv('FLASK_ENV') == 'development'
+    app.run(debug=debug_mode, use_reloader=debug_mode)
