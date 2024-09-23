@@ -15,8 +15,7 @@ set the
    * defaults web3 uses to send transactions. If you dont specify one truffle  * will spin up a development blockchain for you on port 9545 when you * run `develop` or `test`. You can ask a truffle command to use a specific * network from the command line,
    e.g *  $ truffle test --network <network-name> */ 
       networks: { 
-            // Useful for testing.The 
-`development` name is special - truffle uses it by default 
+            // Useful for testing.The `development` name is special - truffle uses it by default 
       // if its defined here and no other network is specified at the command line. 
       // You should run a  client (like ganache-cli, geth or parity) in a separate terminal 
       // tab if you use this network and you must also 
